@@ -12,7 +12,7 @@ const { topup, topupVOUCHER } = require('./commands/topup');
 const { topupCRYPTO, topupDOGE, topupETH, topupLTC } = require('./commands/topup/Cryptocurrency');
 const { topupPULSA, topupSIMPATI, topupAS, topup3, topupXL, topupAXIS, topupINDOSAT } = require('./commands/topup/Pulsa');
 const { topupEWALLET, topupDANA, topupGOPAY, topupOVO } = require('./commands/topup/E-Wallet');
-const { profile } = require('./commands/profile');
+const { profile, editprofile } = require('./commands/profile');
 const { help, group, channel, about, system } = require('./commands/help');
 
 const { BOT_TOKEN, BOT_USERNAME } = process.env;
@@ -56,6 +56,7 @@ bot.hears('🛒 Beli', buy)
     .hears('🟢 OVO', topupOVO)
     .hears('🟢 GO-Pay', topupGOPAY)
     .hears('👤 Profil', profile)
+    .hears('⚙️ Edit Profile', editprofile)
     .hears('🌟 Voucher', useVOUCHER)
     .hears('ℹ️ Bantuan', help)
     .hears('👥 Group', group)
