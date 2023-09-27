@@ -2,7 +2,7 @@
 =========================
 ==========================================================
 
-Template sederhana ini berguna untuk membuat Telegram Bot.
+Template sederhana ini berguna untuk membuat Telegram Bot menggunakan Telegraf v3.38.0.
 
 # Install
 
